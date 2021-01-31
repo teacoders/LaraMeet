@@ -71246,6 +71246,7 @@ try {
  */
 
 
+var token = document.head.querySelector('meta[name="csrf-token"]');
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /**
@@ -71260,12 +71261,10 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'pusher',
   key: "pusherKey",
   cluster: "mt1",
-  // encrypted: true
   wsHost: window.location.hostname,
   wsPort: 6001,
-  wssPort: 6001,
   disabledStates: true,
-  enabledTransports: ['ws', 'wss']
+  enabledTransports: ['ws']
 });
 
 /***/ }),
