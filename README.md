@@ -22,6 +22,11 @@ copy .env.example to .env
 cp .env.example .env
 ```
 
+Generate keys for your project
+```php
+php artisan key:generate
+```
+
 Change into following enviroment variable
 ```php
 DB_CONNECTION=your_db_connection
