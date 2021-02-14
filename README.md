@@ -22,7 +22,7 @@ copy .env.example to .env
 cp .env.example .env
 ```
 
-Chaange enviroment variable defined below
+Change into following enviroment variable
 ```php
 DB_CONNECTION=your_db_connection
 DB_HOST=db_host_name
@@ -43,18 +43,13 @@ php artisan serve
 change APP_URL in .env
 ```
 
-## File Sharing
-
-Run this command `php artisan storage:link`
-
-
 ## Next Version
 
 - Group Video Call
 
 ## Credits
 
-- All Contributors
+- [All Contributors](../../contributors)
 
 ## License
 
