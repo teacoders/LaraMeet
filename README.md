@@ -32,6 +32,13 @@ DB_USERNAME=db_user_name
 DB_PASSWORD=db_password
 
 BROADCAST_DRIVER=pusher
+
+// If you want, you can write anything here but you cannot leave it empty
+
+PUSHER_APP_ID=anyId 
+PUSHER_APP_KEY=anyKey
+PUSHER_APP_SECRET=anySecret
+PUSHER_APP_CLUSTER=mt1
 ```
 
 And 
