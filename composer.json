@@ -1,10 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "teacoders/larameet",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Simple one to one video chat using Laravel Framework.",
     "keywords": [
-        "framework",
-        "laravel"
+        "video chat",
+        "laravel",
+        "chat app",
+        "laravel echo chat app"
     ],
     "license": "MIT",
     "require": {
