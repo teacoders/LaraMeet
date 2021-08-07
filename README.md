@@ -1,68 +1,13 @@
-# Laravel Video Chat
-Laravel Video Chat using Laravel Websocket and WebRTC
+<p align="center"><a href="https://teacoders.in" target="_blank"><img src="https://teacoders.in/images/basic_logo.png" width="400"></a></p>
 
-## Installation
+## About Teacoders
 
-Clone the repo
-```php
-git clone https://github.com/teacoders/laravel-video-chat.git
-```
+Tea Coders is an IT consulting and software product development company that designs, develops and deploys solutions based on AI and Machine Learning. These are accessible through web, mobile, and embedded software products for clients across the World. Our customers include start-ups as well as some of the renowned companies. Focused on Artificial Intelligence-driven IoT, we create solutions that address the pressing challenges of the customers
 
-Go to project directory
-```php
-cd laravel-video-chat
-```
-Install all Composer dependencies
-```php
-composer install
-```
+## Security Vulnerabilities
 
-copy .env.example to .env
-```php
-cp .env.example .env
-```
-
-Generate keys for your project
-```php
-php artisan key:generate
-```
-
-Change into following enviroment variable
-```php
-DB_CONNECTION=your_db_connection
-DB_HOST=db_host_name
-DB_PORT=db_port
-DB_DATABASE=db_name
-DB_USERNAME=db_user_name
-DB_PASSWORD=db_password
-
-BROADCAST_DRIVER=pusher
-
-// If you want, you can write anything here but you cannot leave it empty
-
-PUSHER_APP_ID=anyId 
-PUSHER_APP_KEY=anyKey
-PUSHER_APP_SECRET=anySecret
-PUSHER_APP_CLUSTER=mt1
-```
-
-And 
-```php 
-php artisan migrate
-php artisan storage:link
-php artisan serve
-
-change APP_URL in .env
-```
-
-## Next Version
-
-- Group Video Call
-
-## Credits
-
-- [All Contributors](../../contributors)
+If you discover a security vulnerability within Literate, please send an e-mail to us via [support@teacoder.in](mailto:support@teacoder.in). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The Literate is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
