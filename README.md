@@ -6,7 +6,7 @@ Tea Coders is an IT consulting and software product development company that des
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Literate, please send an e-mail to us via [support@teacoder.in](mailto:support@teacoder.in). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Literate, please send an e-mail to us via [support@teacoders.in](mailto:support@teacoders.in). All security vulnerabilities will be promptly addressed.
 
 ## License
 
